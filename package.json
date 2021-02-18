@@ -6,13 +6,18 @@
     "@testing-library/jest-dom": "^5.10.1",
     "@testing-library/react": "^10.2.1",
     "@testing-library/user-event": "^12.0.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
     "react": "^16.13.1",
+    "react-datepicker": "^3.5.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "tailwindcss": "npx tailwind build src/css/index.css -c src/css/tailwind.config.js -o src/css/tailwind.css",
+    "start": "npm run tailwindcss && react-scripts start",
+    "build": "npm run tailwindcss && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -30,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^2.0.3"
   }
 }
