@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+/* font-family: 'Play', sans-serif; */
+
+body{
+  background-color: #020002e7;
+  background-image: url("https://i.ytimg.com/vi/EZ7la-hMNuk/maxresdefault.jpg");
+  background-size: cover;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +44,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.picDiv {
+  
+  height: 80%;
+  width: 55%;
+  min-width: 400px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.pic{
+  width: 100%;
+  
+}
+
+.picpic{
+  width: 100%;
+  border: solid 1px rgb(44, 42, 44);
+}
+
+#h1{
+  font-size: 7vh;
+  font-family: 'Play', sans-serif;
+  color: #332e33;
+}
+
+p{
+  color: #7c707c;
+  font-size: 2vh;
+  text-align: center;
+  margin: 3% 13% 1% 13%;
+
+}
+
+button{
+  background-color:#332e33;
+  border: solid 2px;
+  padding: 1% 10%;
+  margin-top: 3%;
+  font-family: 'Play', sans-serif;
+  font-size: large;
+  border-radius: 40px;
+  outline: none;
+  margin-bottom: 3%;
 }
